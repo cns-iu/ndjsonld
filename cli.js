@@ -33,4 +33,39 @@ program
     }
   });
 
+program
+  .command('format')
+  .description('Help Wanted')
+  .action(() => console.log('Help Wanted'));
+
+program
+  .command('lint')
+  .description('Help Wanted')
+  .action(() => console.log('Help Wanted'));
+
+program
+  .command('compact')
+  .description('Help Wanted')
+  .action(() => console.log('Help Wanted'));
+
+program
+  .command('expand')
+  .description('Help Wanted')
+  .action(() => console.log('Help Wanted'));
+
+program
+  .command('flatten')
+  .description('Help Wanted')
+  .action(() => console.log('Help Wanted'));
+
+program
+  .command('frame')
+  .description('Help Wanted')
+  .action(() => console.log('Help Wanted'));
+
+program
+  .command('toRdf')
+  .description('Help Wanted')
+  .action(() => console.log('Help Wanted'));
+
 program.parse(process.argv);
