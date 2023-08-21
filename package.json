@@ -1,0 +1,34 @@
+{
+  "name": "ndjsonld",
+  "version": "0.1.0",
+  "description": "A CLI for running jsonld commands over ndjson (newline-delimited json) files",
+  "keywords": [
+    "rdf",
+    "rdfjs",
+    "jsonld",
+    "ndjson",
+    "ttl"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cns-iu/ndjsonld#readme",
+  "bugs": "https://github.com/cns-iu/ndjsonld/issues",
+  "repository": "github:cns-iu/ndjsonld",
+  "bin": {
+    "ndjsonld": "./cli.js"
+  },
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Bruce W. Herr II",
+    "email": "bh2@bh2.net",
+    "url": "https://github.com/bherr2"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "iterable-ndjson": "^1.1.0",
+    "jsonld": "^8.2.0"
+  }
+}
