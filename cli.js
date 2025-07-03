@@ -40,7 +40,7 @@ program
         }
         const nquads = (await jsonld.canonize(obj, options))
           // Make sure blank nodes are not clashing across documents
-          .replace(/\_\:c14n/g, `_:c14n${docIndex}-`);
+          .replace(/\_\:c14n/g, `_:d${docIndex}b`);
         output.write(nquads);
       }
     } else {
